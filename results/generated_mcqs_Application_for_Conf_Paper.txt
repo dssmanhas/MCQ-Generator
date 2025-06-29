@@ -1,0 +1,48 @@
+1. To whom is the letter addressed?
+   a) The Head of the CSE Department
+   b) The Dean of Academics at Thapar Institute
+   c) The Director of Amity University, Noida
+   d) The DoAA (presumably Dean of Academic Affairs) at Thapar Institute
+Correct Answer: d
+
+2. What is the main purpose of the letter?
+   a) To request permission to attend a conference.
+   b) To announce the acceptance of a research paper.
+   c) To request reimbursement for a conference registration fee.
+   d) To share details about a new technology.
+Correct Answer: c
+
+3.  What is the name of the conference?
+   a) International Conference on Information Technology
+   b) 12th International Conference on Reliability, Infocom Technologies and Optimization (ICRITO'2025)
+   c) Amity University Research Symposium
+   d)  National Conference on Deep Learning
+Correct Answer: b
+
+4. When is the conference taking place?
+   a) June 10, 2025
+   b) September 18-19, 2025
+   c)  October 2025
+   d)  November 15-16, 2025
+Correct Answer: b
+
+5. What is the title of the accepted research paper?
+   a)  YOLO-Based Deep Learning for Image Recognition
+   b)  Weed Detection in Potato Fields Using YOLO-Based Deep Learning Models
+   c)  Deep Learning Applications in Agriculture
+   d)  Infocom Technologies and Optimization in Agriculture
+Correct Answer: b
+
+6. What is the total registration fee including GST?
+   a) Rs. 6000
+   b) Rs. 7080
+   c) Rs. 8000
+   d) Rs. 5000
+Correct Answer: b
+
+7. Where is the conference being held?
+   a) Thapar Institute of Engineering and Technology, Patiala
+   b)  Amity University, Noida, India
+   c)  Patiala, Punjab
+   d) Online only
+Correct Answer: b

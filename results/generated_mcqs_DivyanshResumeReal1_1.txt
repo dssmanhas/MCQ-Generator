@@ -1,0 +1,20 @@
+1. What programming languages is Divyansh Singh Manhas proficient in?
+   a) Java, Kotlin, Swift
+   b) C#, Go, Ruby
+   c) C, C++, Python, JavaScript, R
+   d) PHP, SQL, Perl
+Correct Answer: c
+
+2. Which project utilized ensembling and optimization techniques like Particle Swarm, Grey Wolf, and Whale optimization?
+   a) Family Travel Tracker
+   b) Campus Connect
+   c) ChestXScan
+   d) Poly Cystic Ovary Syndrome Detection Model
+Correct Answer: d
+
+3.  What database management systems does Divyansh list among his skills?
+   a) Oracle, DB2, Sybase
+   b) PostgreSQL, MySQL
+   c) SQLite, Firebase, MongoDB
+   d) Redis, Cassandra, Memcached
+Correct Answer: b

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Results</title>
+    <style>
+        body {
+            background: #e9ecef;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px 30px 20px 30px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        }
+        h1 {
+            text-align: center;
+            color: #007bff;
+            margin-bottom: 32px;
+        }
+        .mcq {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            padding: 18px 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+            transition: box-shadow 0.2s;
+        }
+        .mcq:hover {
+            box-shadow: 0 4px 16px rgba(0,123,255,0.08);
+        }
+        .question {
+            font-weight: 600;
+            color: #343a40;
+            margin-bottom: 14px;
+            font-size: 1.08em;
+        }
+        .options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .option {
+            flex: 1 1 45%;
+            background: #e2e6ea;
+            border-radius: 5px;
+            padding: 10px 14px;
+            margin-bottom: 8px;
+            color: #495057;
+            font-size: 1em;
+            transition: background 0.2s;
+        }
+        .option:hover {
+            background: #d0e2ff;
+        }
+        .download-links {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .download-links a {
+            display: inline-block;
+            margin: 0 12px;
+            padding: 12px 28px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            font-size: 1em;
+            box-shadow: 0 2px 8px rgba(0,123,255,0.08);
+            transition: background 0.2s, box-shadow 0.2s;
+        }
+        .download-links a:hover {
+            background-color: #0056b3;
+            box-shadow: 0 4px 16px rgba(0,86,179,0.12);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Generated MCQs</h1>
+        {% for mcq in mcqs %}
+        <div class="mcq">
+            <div class="question">{{ mcq.question }}</div>
+            <div class="options">
+                <div class="option">{{ mcq.options[0] }}</div>
+                <div class="option">{{ mcq.options[1] }}</div>
+                <div class="option">{{ mcq.options[2] }}</div>
+                <div class="option"> {{ mcq.options[3] }}</div>
+            </div>
+            <div class="correct-answer">
+        <strong>Correct Answer:</strong> {{ mcq.correct_answer }}
+    </div>
+        </div>
+        {% endfor %}
+        <div class="download-links">
+            <a href="/download/{{txt_filename}}">Download as TXT</a>
+            <a href="/download/{{pdf_filename}}">Download as PDF</a>
+        </div>
+    </div>
+</body>
+</html>

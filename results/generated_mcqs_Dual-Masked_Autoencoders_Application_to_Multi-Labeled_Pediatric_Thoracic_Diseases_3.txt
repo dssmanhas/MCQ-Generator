@@ -1,0 +1,41 @@
+1. What is the primary challenge addressed by the dual-MAE algorithm in this study?
+   a) The high cost of pediatric chest X-ray imaging.
+   b) The lack of skilled radiologists to interpret pediatric chest X-rays.
+   c) The limited availability of pediatric chest X-ray data.
+   d) The difficulty in obtaining informed consent from parents of pediatric patients.
+Correct Answer: c
+
+2.  What is the key innovation introduced in the dual-MAE architecture?
+   a)  A novel convolutional neural network (CNN) architecture.
+   b) The use of a single encoder and decoder network.
+   c)  The incorporation of online and target networks with encoder and decoder modules.
+   d) A new method for image segmentation.
+Correct Answer: c
+
+3. What datasets were primarily used for pretraining the dual-MAE model?
+   a) ImageNet and CIFAR-10
+   b)  PediCXR and ChestX-ray14
+   c) CheXpert and ChestX-ray14
+   d) MNIST and Fashion-MNIST
+Correct Answer: c
+
+4.  What is the main performance metric used to evaluate the different models?
+   a) Accuracy
+   b) Precision
+   c) Mean AUC score
+   d) F1-score
+Correct Answer: c
+
+5.  Which model achieved the highest mean AUC score in the study?
+   a) ResNet-34 trained from scratch
+   b) ViT-S pretrained on ImageNet
+   c) Vanilla MAE pretrained on adult chest X-rays
+   d) Dual-MAE pretrained on adult chest X-rays
+Correct Answer: d
+
+6. What strategy was employed to mitigate the issue of limited pediatric chest X-ray data?
+   a) Data augmentation techniques such as rotation and flipping.
+   b)  Using a smaller, more efficient model architecture.
+   c) Pretraining the model on adult chest X-rays and then fine-tuning on pediatric X-rays.
+   d)  Collecting additional pediatric chest X-ray data from various hospitals.
+Correct Answer: c
